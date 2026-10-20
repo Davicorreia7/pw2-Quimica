@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #131518;
+    color: #e6eaed;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.header-banner {
+    background-image: url("images/background2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #23272c;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    text-shadow: 2px 4px 8px black;
+}
+
+.header-banner h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.school {
+    font-size: 14px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Cada bloco da página */
+.card {
+    background-color: #191b1d;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #d3dae0;
+}
+
+.info-grid {
+    list-style: none;
+    padding: 0;
+}
+
+.info-grid li {
+    padding: 6px 0;
+    border-bottom: 1px solid #424950;
+}
+
+.uses-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.use-item {
+    background-color: #222527;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+}
+
+
+a {
+    color: #a9cdea;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    background-color: #111316;
+    color: #c4cbd1;
+    text-align: center;
+    padding: 15px;
+}
+
+.teachers-grid {
+    text-align: center;
+}
+
+.teacher-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 1px solid #171717;
+}
